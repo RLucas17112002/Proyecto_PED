@@ -7,6 +7,14 @@ int main()
     DLHor lLista = DLHor();
     PHNODE lHor = NULL;
     PVNODE lVer = NULL;
+    
+    string usuario;
+    string contrasena;
+    cout << "ingrese el usuario: ";
+    cin >> usuario;
+    cout << "Ingrese la contraseña: ";
+    cin >> contrasena;
+        
 
     cout << "1) Insertar 3 cats. con sus elementos." << endl;
     lLista.push("cat 01", "main 01", "extra 01");
