@@ -88,6 +88,9 @@ public:
     void repr(bool pRev = false);
     void read(string pPath);
     void write(string pPath, bool pRev = false);
+	
+    void agregar(string usuario, string contrasena);
+    void iniciar_sesion(string usuario, string contrasena);
 
 private:
     void push_front(string pCat, string pMain, string pExtra);
