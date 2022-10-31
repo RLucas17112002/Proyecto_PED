@@ -102,6 +102,8 @@ public:
     void repr(ECampos pCampo, bool pRev = false);
     void read(string pPath);
     void write(string pPath);
+    
+    void iniciar_sesion(string usuario, string contrasena);
 
 private:
     void pop_front(void);
